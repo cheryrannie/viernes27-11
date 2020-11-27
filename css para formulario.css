@@ -1,0 +1,42 @@
+body{
+    background:rgb(white, pink,pink)
+    }
+    .form{
+        width: 500px;
+        padding:20px 35px;
+        background: #ffffff;
+        margin: 100px auto;
+        border:radius: 4px;
+        border-bottom:12px solid
+        #e7e8e7;
+    }
+    .form> input,
+    .form> textarea{
+        display:block;
+        margin-bottom: 10px;
+        width: 100%;
+        background: #ebf1eb;
+        border:none;
+        border-left: 8px solid #bac3ba;
+        padding: 12px 17 px;
+        box-sizing:border-box ;
+    }
+.form>input:focus,
+.form>textarea:focus{
+    outline: none;
+}
+.form .send{
+    text-align: right;
+    margin: top:30px;
+}
+.form .send>input{
+    background:#fdd302 ;
+    color: #ffffff;
+}
+.form .send>input:focus,
+.form .send> input:active{
+    cursor: pointer;
+    border-bottom: width: 2px ;
+    position: relative;
+    top:4px
+    }
